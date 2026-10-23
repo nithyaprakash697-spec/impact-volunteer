@@ -1,0 +1,6 @@
+{
+  "name": "ImpactVolunteer",
+  "description": "AI-powered volunteer opportunity matching platform connecting student skills with meaningful community impact through intelligent workflows.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

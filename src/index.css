@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'DM Sans', system-ui, -apple-system, sans-serif;
+    --font-mono: 'Space Mono', monospace;
+    --bg-main: #071C16;
+    --bg-secondary: #10251D;
+    --accent: #C6FF5E;
+    --text-primary: #F5F4EC;
+    --text-secondary: #A7B7A9;
+    --surface-light: #F5F4EC;
+    --surface-dark: #14251B;
+    --border-subtle: rgba(198, 255, 94, 0.15);
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: var(--bg-main);
+    color: var(--text-primary);
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-display);
+  }
+
+  code, pre, .font-mono {
+    font-family: var(--font-mono);
+  }
+}
+
+/* Custom organic glow and mesh utilities */
+.glow-accent {
+  box-shadow: 0 0 35px -10px rgba(198, 255, 94, 0.25);
+}
+
+.glow-accent-sm {
+  box-shadow: 0 0 20px -6px rgba(198, 255, 94, 0.2);
+}
+
+.border-lime-subtle {
+  border-color: rgba(198, 255, 94, 0.15);
+}
+
+/* Custom subtle organic grid background */
+.bg-organic-grid {
+  background-image: radial-gradient(rgba(198, 255, 94, 0.08) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
